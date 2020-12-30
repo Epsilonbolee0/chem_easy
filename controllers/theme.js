@@ -1,5 +1,5 @@
 module.exports.getAll = (req, res) => {
-
+    res.json({message: 'Theme'})
 }
 
 module.exports.getById = (req, res) => {
